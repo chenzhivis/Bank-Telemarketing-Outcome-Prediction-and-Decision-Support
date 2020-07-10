@@ -18,6 +18,7 @@ Utilizing a Portuguese Bank telemarketing campaign dataset, this project analyze
 
 ## Resources of data:
 The resource of data is from Kaggle.com
+https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set
 
 ## This repository contains the following files:
 
