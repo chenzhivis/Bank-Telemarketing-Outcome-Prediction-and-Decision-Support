@@ -1,11 +1,18 @@
 # Mod-3-project
 by Zhi Chen and Daniel Mocombe
 
-## Brief Background
-Diamonds are commonly seen jewelry and are luxuries to most people. People save money to purchase for important events in life. We all know that diamonds' prices are determined by size, clarity, color, etc. But how to determine the price for a diamond? When purchasing, people usually make serious considerations since it is big spent money.
+## Brief background
+Telemarketing is still the main promotion approach in commerical banking industry today. Emails from banks are usually neglected by clients or directly into 'Ads' tag or spam. Bank tellers are calling their clients to pursuade them to make term deposit, open money market accounts, loans, etc. Telemarketing promotion is very time-consuming. A bank staff can call a client for more 10 times spending total 3 hours without getting a positive result. A good telemarketing campaign can get good amount of positive response without inputting too much human resources.
 
-## My Aim: 
-The aim of this project is to analyze diamonds features and diamonds prices, find out how different features can influence the price, and build up a price prediction model to predict the prices of diamonds. After getting prediction model, use the model to check if online diamonds retailer website are overcharging people or give more economic/affordable choices.__
+Therefore, it is essential to understand which type of clients are more likely to response positively to the promotion. And, it is important to establish a model to predict the telemarketing campaign outcome based on the bank's purposes.
+
+Utilizing a Portuguese Bank telemarketing campaign dataset, this project analyzed clients' response to the term deposit promoting with various clients' attributes. 
+
+## Goals of this project: 
+
+(1) analyze how various features can influence the telemarketing campaign response, help bank tellers to improve telemarketing efficiency; 
+(2) develop machine learning models (with various metrics) that can help bank or bank tellers to predict response of the clients;
+(3) Based on the results of various models, make suggestions to bank or bank tellers regarding how to use models.
 
 ## Resources: There are 2 resources of data:
 --(1) __Kaggle.com dataset__, prediction model will be build up based on this dataset; 
