@@ -59,4 +59,4 @@ The resource of data is from Kaggle.com
 
 ## Project presentation link:
 
-https://docs.google.com/presentation/d/1d5TTpYs8dPQW01Yw9gQuYmBFweYwcr8R8DP32NsO-z8/edit?ts=5f07a77f#slide=id.p
+https://docs.google.com/presentation/d/1d5TTpYs8dPQW01Yw9gQuYmBFweYwcr8R8DP32NsO-z8/edit#slide=id.p
