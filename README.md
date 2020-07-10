@@ -11,43 +11,52 @@ Utilizing a Portuguese Bank telemarketing campaign dataset, this project analyze
 ## Goals of this project: 
 
 (1) analyze how various features can influence the telemarketing campaign response, help bank tellers to improve telemarketing efficiency; 
+
 (2) develop machine learning models (with various metrics) that can help bank or bank tellers to predict response of the clients;
+
 (3) Based on the results of various models, make suggestions to bank or bank tellers regarding how to use models.
 
-## Resources: There are 2 resources of data:
---(1) __Kaggle.com dataset__, prediction model will be build up based on this dataset; 
---(2) __Web scraping diamonds data from www.bluenile.com__ , data from www.bluenile.com will be compared to predictions. 
+## Resources of data:
+The resource of data is from Kaggle.com
 
 ## This repository contains the following files:
 
-*  mod2 project1.ipynb, -- the main jupyter notebook containing 6 parts: 1). 1. Data Collection and cleaning; 2). Explanatory Data Analysis, descriptive statistics; 3). Hypothesis Testing; 4). Model with MultipleLinear Regression and Lasso Regression, Comparing Models; 5). Feature Engineering, Establishing Final Model; 6). Business/Social Case & Conclusions. All EDA graphes are in this notebook; final model is in section 5; and each section has conclusion, and, final conclusions are made as summarized to seven points in last section. 
+*  mod3_project_1.ipynb, -- the main jupyter notebook containing 7 parts: 
+1. Data collection and cleaning
+2. Explanatory Data Analysis, descriptive statistics
+3. Hypothesis test and analysis
+4. Preprocessing & feature engineering
+5. Various model fitting
+6. Models evaluation
+7. Business conclusion and discussion
 
-*  selenium webscraping.ipynb, -- I wrote web scraping code in this notebook to get data from online jewelry sales website. In this, various feature values can be input to scrape the data in the range I desire. 
+*  Portuguese Bank.csv, -- the dataset that contains all independent variables and taget variales with more than 40,000 observations 
 
-*  diamonds.csv, -- the dataset downloaded from kaggle.com, I used this dataset to establish my prediction model. 
+*  bank data raw.csv, -- original raw data which contains all independent variables and taget variales but in lines of strings
 
-*  bluenile.csv, -- the data I scraped from www.bluenile.com, saved as .csv file. 
+*  precision.sav -- the prediction model that gives best precision score
 
-*  geckodriver.exe -- the file needed to run selenium scraping, to open firefox browser. 
-
-*  diamondpredict.sav -- the final prediction model I saved using pickle, for future use.
+*  sensitivity.sav -- the prediction model that gives best sensitivity score
 
 ## Some conclusions: 
 
-* In the diamonds market, prices are like exponentially related to carat weight, as the carat weight get larger and larger, price increase faster and faster. One 2 carats diamond are much valuable than 2 one carat diamonds.
+### There are variuous factors that can influence the clients' response to banks' telemarketing. From the analysis in this project, we can conclude that:
 
-* In reality, top quality diamonds(higher clarity, higher colorless) mainly lay in smaller diamonds range, it is difficult to get larger carat weight high clarity (or high color level) diamonds. Bigger diamonds are more likely to have middle or low clarity or colorless levels
+* Clients with different ages and occupations do have different response rate to telemarketing, middle age people has the least interests. This is because early age people (students, lack of investment experiences) and old age people (retired people, more conserative) don't have many other choices or willingness to do other investment. The EDA of different occupations responses and different ages responses are very consistent on this point. So bank tellers shall focus more on these clients so that they can have higher success rate.
+* Education levels matters. Low education level people (people only has primary education experience) are not likely to have positive response to the telemarketing campaign. Among the 3 different education levels, the post-secondary education level (highest) has significance response rate 14%, higher than the middle level(high school education) 10%, and further higher than 8% (lowest level, people only with the primary education). So bank tellers shall focus more on clients with higher education.
+* There are certain periods of time during a year people start saving. People usually spend more on holiday seasons (like Christmas) and are paying back credit cards after that. You can see March is a peak of people's response to term deposit. Another peak is close to the end of a year, after summer time. Bank tellers shall start telemarketing campaigns in this periods in order to have good outcome.
 
-* Pure dimensions (x,y,z) are usually not cared in diamonds selection, since carat weight value can represent them. But the shape matters, so L/W and depth are important features that can affect diamonds prices.
+### Some tips to improve bank tellers' telemarketing strategies:
 
-* Overall speaking, middle color level and middle clarity level have the most percentage in all levels.
+* Don't call people too many times, as shown in Explanatory Data Analysis, when the contact time is beyond 10, the positive response rate decrease, beyond 15 times is the worst. If a client is willing to make term deposit, he/she will do it when bank teller calls him/her certain times. But too many contacts make people feel annoying.
+* Bank balance is not super important, one may assume that people with high balance in bank accounts are more likely to make term deposit, just because that this person have money to do it. But our analysis of features importances in section 5.3 and 5.5 shows the balance amount is not that important. Balance has some contribution to the final result, but not among the top 5. One thing to remember is that many people bank with more than 1 banking institution. So, low balance in this bank does not mean the person cannot make term deposit. High balance does not mean this person is likely to make term deposit, maybe other banks are offering this person better promotion.
 
-* There is statistically significant difference in carat weight of diamonds with different cut levels, there is statistical significant difference in prices of diamonds with different color levels.
+### The way to use the models in the notebook:
 
-* There is relationship between the distributions of diamond clairity levels category and the color levels category (they are not independent), this is determined by diamonds forming mechanism and processing.
-
-* Prediction model developed based on Kaggle dataset fit perfectly with Kaggle dataset, but predict higher prices than online sales prices. Normally, online sales prices are lower, this makes sense. And, datasets from different resources many not reflect each other well. Data resources of learn and practices (non-profit) may not have the same trend as data from commercial resources. Before using dataset to make serious modeling and professional prediction, reliability of data resources and type of the data resources shall be considered.
+* If the bank has abundant staff and not too busy in this season, it can use the model in section 5.5 with high sensitivity in order not to miss the false negatives. This way although the precision is not good enough, but the bank gets as many as people truely will make term deposit.
+* If the bank has limited human resources, it can use the model in section 5.3 with high precision, which filters out only limited amount of candidates to be contacted. By doing this, they can get very high success rate. But, this way, bank will loss many false negatives.
+* In our idea, bank who is serious about the telemarketing campaign shall use model in section 5.5 with high sensitivity to get as many clients as possible, because it is not just for term deposit in this campaign, it can also increase 'clients stickiness'. Term deposit is not only to get more deposit, but can also have the clients to stick with this bank for a long time, which can also bring other opportunities to the bank
 
 ## Project presentation link:
 
-https://docs.google.com/presentation/d/1YXuIXfcZhcGVjATO_c1_hLBSJ684fRFyFeLu2MA_zYQ/edit?usp=sharing
+https://docs.google.com/presentation/d/1d5TTpYs8dPQW01Yw9gQuYmBFweYwcr8R8DP32NsO-z8/edit?ts=5f07a77f#slide=id.p
