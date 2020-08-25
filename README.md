@@ -47,7 +47,7 @@ https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set
 * Education levels matters. Low education level people (people only has primary education experience) are not likely to have positive response to the telemarketing campaign. Among the 3 different education levels, the post-secondary education level (highest) has significance response rate 14%, higher than the middle level(high school education) 10%, and further higher than 8% (lowest level, people only with the primary education). So bank tellers shall focus more on clients with higher education.
 * There are certain periods of time during a year people start saving. People usually spend more on holiday seasons (like Christmas) and are paying back credit cards after that. You can see March is a peak of people's response to term deposit. Another peak is close to the end of a year, after summer time. Bank tellers shall start telemarketing campaigns in this periods in order to have good outcome.
 * Please see the following plots supporting the above conclusions: 
-
+![image](https://user-images.githubusercontent.com/64159084/91112631-a26ccc00-e651-11ea-9da5-7846e454877a.png)
 
 
 ### Some tips to improve bank tellers' telemarketing strategies:
