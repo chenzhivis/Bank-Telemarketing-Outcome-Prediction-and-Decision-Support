@@ -52,7 +52,9 @@ https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set
 
 ### Some tips to improve bank tellers' telemarketing strategies:
 
-* Don't call people too many times, as shown in Explanatory Data Analysis, when the contact time is beyond 10, the positive response rate decrease, beyond 15 times is the worst. If a client is willing to make term deposit, he/she will do it when bank teller calls him/her certain times. But too many contacts make people feel annoying.
+* Don't call people too many times, as shown in Explanatory Data Analysis, when the contact time is beyond 10, the positive response rate decrease, beyond 15 times is the worst. If a client is willing to make term deposit, he/she will do it when bank teller calls him/her certain times. But too many contacts make people feel annoying. Here is the graph showing relationship of response rate and contact times :
+![image](https://user-images.githubusercontent.com/64159084/91112827-1b6c2380-e652-11ea-857c-7d9acfbd4a2c.png)
+
 * Bank balance is not super important, one may assume that people with high balance in bank accounts are more likely to make term deposit, just because that this person have money to do it. But our analysis of features importances in section 5.3 and 5.5 shows the balance amount is not that important. Balance has some contribution to the final result, but not among the top 5. One thing to remember is that many people bank with more than 1 banking institution. So, low balance in this bank does not mean the person cannot make term deposit. High balance does not mean this person is likely to make term deposit, maybe other banks are offering this person better promotion.
 
 ### The way to use the models in the notebook:
