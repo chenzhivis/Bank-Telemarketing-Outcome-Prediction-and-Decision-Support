@@ -46,6 +46,9 @@ https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set
 * Clients with different ages and occupations do have different response rate to telemarketing, middle age people has the least interests. This is because early age people (students, lack of investment experiences) and old age people (retired people, more conserative) don't have many other choices or willingness to do other investment. The EDA of different occupations responses and different ages responses are very consistent on this point. So bank tellers shall focus more on these clients so that they can have higher success rate.
 * Education levels matters. Low education level people (people only has primary education experience) are not likely to have positive response to the telemarketing campaign. Among the 3 different education levels, the post-secondary education level (highest) has significance response rate 14%, higher than the middle level(high school education) 10%, and further higher than 8% (lowest level, people only with the primary education). So bank tellers shall focus more on clients with higher education.
 * There are certain periods of time during a year people start saving. People usually spend more on holiday seasons (like Christmas) and are paying back credit cards after that. You can see March is a peak of people's response to term deposit. Another peak is close to the end of a year, after summer time. Bank tellers shall start telemarketing campaigns in this periods in order to have good outcome.
+* Please see the following plots supporting the above conclusions: 
+
+
 
 ### Some tips to improve bank tellers' telemarketing strategies:
 
