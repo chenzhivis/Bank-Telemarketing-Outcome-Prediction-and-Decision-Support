@@ -11,9 +11,9 @@ Utilizing a Portuguese Bank telemarketing campaign dataset, this project analyze
 
 (1) analyze how various features can influence the telemarketing campaign response, help bank tellers to improve telemarketing efficiency; 
 
-(2) develop machine learning models (with various metrics) that can help bank or bank tellers to predict response of the clients;
+(2) develop machine learning models that can help bank tellers to predict telemarketing campaign response from clients;
 
-(3) Based on the results of various models, make suggestions to bank or bank tellers regarding how to use models.
+(3) based on the results of various models, make suggestions to bank or bank tellers regarding how to use models.
 
 ## Resources of data:
 The resource of data is from Kaggle.com
