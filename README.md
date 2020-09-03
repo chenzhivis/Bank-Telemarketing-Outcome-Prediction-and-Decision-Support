@@ -1,4 +1,4 @@
-# Mod-3-project
+# Bank Telemarketing Outcome Prediction and Decision Support
 
 ## Brief background
 Telemarketing is still the main promotion approach in commerical banking industry today. Emails from banks are usually neglected by clients or directly into 'Ads' tag or spam. Bank tellers are calling their clients to pursuade them to make term deposit, open money market accounts, loans, etc. Telemarketing promotion is very time-consuming. A bank staff can call a client for more 10 times spending total 3 hours without getting a positive result. A good telemarketing campaign can get good amount of positive response without inputting too much human resources.
