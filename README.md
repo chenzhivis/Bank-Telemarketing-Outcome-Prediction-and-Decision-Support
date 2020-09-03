@@ -61,7 +61,7 @@ https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set
 * Commercial bank shall consider its marketing activity cost in telemarketing campaign, the cost here is mainly the human resources imput.
 * If the bank has abundant staff and not too busy in this season, it can use the model in section 5.5 with high sensitivity in order not to miss the false negatives. In this way, although the precision is not good enough, but the bank gets as many as people truely will make term deposit.
 * If the bank has limited human resources, it can use the model in section 5.3 with high precision, which filters out only limited amount of candidates to be contacted. By using this model, they can get very high success rate. But, in this way, bank will loss many false negatives.
-* In my idea, bank who is serious about the telemarketing campaign shall use model in section 5.5 with high sensitivity to get as many clients as possible, because it is not just for term deposit in this campaign this year, it can also increase 'clients stickiness'. Term deposit is not only to get more deposit, but can also have the clients to stick with this bank for a long time, which can also bring other opportunities to the bank.
+* In my idea, banks that are serious about the telemarketing campaign shall use model in section 5.5 with high sensitivity to get as many clients as possible, because it is not just for term deposit in this campaign this year, it can also increase 'clients stickiness'. Term deposit is not only to get more deposit, but can also have the clients to stick with this bank for a long time, which can also bring other opportunities to the bank.
 
 ## Project presentation link:
 
