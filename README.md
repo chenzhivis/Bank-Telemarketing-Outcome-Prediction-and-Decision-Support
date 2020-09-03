@@ -3,9 +3,9 @@
 ## Brief background
 Telemarketing is still the main promotion approach in commerical banking industry today. Emails from banks are usually neglected by clients or directly into 'Ads' tag or spam. Bank tellers are calling their clients to pursuade them to make term deposit, open money market accounts, loans, etc. Telemarketing promotion is very time-consuming. A bank staff can call a client for more 10 times spending total 3 hours without getting a positive result. A good telemarketing campaign can get good amount of positive response without inputting too much human resources.
 
-Therefore, it is essential to understand which type of clients are more likely to response positively to the promotion. And, it is important to establish a model to predict the telemarketing campaign outcome based on the bank's purposes.
+Therefore, it is essential to understand which type of clients are more likely to response positively to the promotion. And, it is important to establish a model to predict the telemarketing campaign outcome based on the bank's purposes for the management level to understand the potential outcome.
 
-Utilizing a Portuguese Bank telemarketing campaign dataset, this project analyzed clients' response to the term deposit promoting with various clients' attributes. 
+Utilizing a Portuguese Bank telemarketing campaign dataset, this project established model to predict outcome of bank term-deposit telemarketing campain and analyzed clients' response to the term deposit promoting with various clients' attributes. 
 
 ## Goals of this project: 
 
@@ -13,7 +13,7 @@ Utilizing a Portuguese Bank telemarketing campaign dataset, this project analyze
 
 (2) develop machine learning models that can help bank tellers to predict telemarketing campaign response from clients;
 
-(3) based on the results of various models, make suggestions to bank or bank tellers regarding how to use models.
+(3) based on the results of various models, make suggestions to bank managers or bank tellers regarding how to use models.
 
 ## Resources of data:
 The resource of data is from Kaggle.com
