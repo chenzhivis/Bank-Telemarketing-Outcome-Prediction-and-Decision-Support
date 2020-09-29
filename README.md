@@ -13,7 +13,7 @@ Utilizing a Portuguese Bank telemarketing campaign dataset, this project establi
 
 (2) develop machine learning models that can help bank or bank tellers to predict response of the clients; 
 
-(3) analyzed the different business scenarios, based on evaluation results of various models, interpreted different metrics for different business situations, make suggestions to bank or bank tellers regarding how to use models.
+(3) analyzed different business scenarios, based on evaluation results of various models, interpreted different metrics for different business situations, make suggestions to bank or bank tellers regarding how to use models.
 
 ## Resources of data:
 The resource of data is from Kaggle.com
@@ -46,7 +46,7 @@ https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set
 * Education levels matters. Low education level people (people only has primary education experience) are not likely to have positive response to the telemarketing campaign. Among the 3 different education levels, the post-secondary education level (highest) has significance response rate 14%, higher than the middle level(high school education) 10%, and further higher than 8% (lowest level, people only with the primary education). So bank tellers shall focus more on clients with higher education. Check the following plot:
 ![image](https://user-images.githubusercontent.com/64159084/91112631-a26ccc00-e651-11ea-9da5-7846e454877a.png)
 
-* There are certain periods of time during a year people start saving. People usually spend more on holiday seasons (like Christmas) and are paying back credit cards after that. You can see March is a peak of people's response to term deposit. Another peak is close to the end of a year, after summer time. Bank tellers shall start telemarketing campaigns in this periods in order to have good outcome.
+* There are certain periods of time during a year people start to save. People usually spend more on holiday seasons (like Christmas) and are paying back credit cards after that. You can see March is a peak of people's response to term deposit. Another peak is close to the end of a year, after summer time. Bank tellers shall start telemarketing campaigns in this periods in order to have good outcome.
 
 
 ### Some tips to improve bank tellers' telemarketing strategies:
