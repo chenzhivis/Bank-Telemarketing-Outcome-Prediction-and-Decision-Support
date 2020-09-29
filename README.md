@@ -9,7 +9,7 @@ Utilizing a Portuguese Bank telemarketing campaign dataset, this project establi
 
 ## Goals of this project: 
 
-(1) analyze how various features can influence the telemarketing campaign response, help bank tellers to improve telemarketing efficiency; 
+(1) analyze how various features influence the telemarketing campaign response, help bank tellers to improve telemarketing efficiency; 
 
 (2) develop machine learning models that can help bank or bank tellers to predict response of the clients; 
 
